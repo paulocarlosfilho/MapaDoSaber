@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121111"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgEnfor"
+        android:layout_width="205dp"
+        android:layout_height="247dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="50dp"
+        app:srcCompat="@drawable/enfor" />
+
+    <TextView
+        android:id="@+id/textMapaDoSaber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mapa Do Saber"
+        android:textAlignment="center"
+        android:textColor="#DDDADA"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonAmbiente"
+        android:layout_width="181dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:backgroundTint="#B68236"
+        android:text="Ambientes"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonContato"
+        android:layout_width="184dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:backgroundTint="#B68236"
+        android:text="Contato"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textIndicarLocais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:paddingTop="90dp"
+        android:paddingRight="10dp"
+        android:text="Produzido por Paulo CSF"
+        android:textAlignment="textEnd"
+        android:textColor="#FAF7F7"
+        android:textSize="12sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

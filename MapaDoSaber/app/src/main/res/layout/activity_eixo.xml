@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#121111"
+    android:onClick="abrirSugestaoMusical1"
+    android:orientation="vertical"
+    tools:context=".Eixo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewEixo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="CAMPO DE EXPERIÊNCIA: O EU, O OUTRO E O NÓS"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewAtividade1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Atividade 1 - Dinâmica esse é meu corpo"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewObjetivo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO: "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewDemonstrarValorizacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="(EI03EO05) Demonstrar valorização das características de seu corpo e respeitar as características dos outros (crianças e adultos) com os quais convive. "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewGenero1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="GÊNERO (S) ORAL (IS): Exposição oral - descrição."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewMateriais1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="MATERIAIS: Cartolina ou EVA, tesoura e tinta colorida."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewDesenvolvimento1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="DESENVOLVIMENTO: Em cartolina ou EVA recorte moldes de diferentes partes do corpo (olhos, mãos, pés, nariz, orelha, cabelo, boca...) em vários tamanhos, cores e formas. Pode decorar as peças com a tinta colorida acentuando características. As peças serão dispostas formando uma grande roda. Serão realizadas várias rodadas do jogo, podendo variar a música, a forma de dançar, entre outras. Coloque uma música a respeito do tema para que as crianças possam dançar, cantar e circular girando em torno das peças no grande círculo. Ao parar a música, cada criança pára na frente de uma peça, o professor escolhe uma parte do corpo, por exemplo, as orelhas e todos que pararam em frente as peças de orelhas farão a descrição oral de como são suas orelhas: descrevendo se são parecidas com as orelhas do recorte, se são pequenas, grandes, arqueadas para frente ou para trás, se tem pontinha redonda... O professor pode fazer a mediação esclarecendo: o quão podem ser diferentes as orelhas de cada um, mas possuem a mesma função, para que serve essa parte do corpo, como deve ser cuidada, entre outras questões. "
+                android:textColor="#FFFEFE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewSugestaoMusical1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="SUGESTÃO MUSICAL/ CLIPE:"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewBocaJacare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text=" “Boca do jacaré” (Danilo Benício);"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonBocaJacare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#B68236"
+                android:onClick="abrirBocaJacare"
+                android:text="https://www.youtube.com/watch?v=G2oBnsAZW3g "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text=" “Dancinha do Corpo” (Turma do Seu Lobato);"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonDancinhaCorpo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#B68236"
+                android:onClick="abrirDancinhaCorpo"
+                android:text="https://www.youtube.com/watch?v=k0j0tk0Br9c "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewCabecaOmbroJoelhoPe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="“Cabeça, ombro joelho e pé” (Xuxa);"
+                android:textColor="#F3F3F3"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonCabecaOmbroJoelhoPe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#B68236"
+                android:onClick="abrirCabecaOmbroJoelhoPe"
+                android:text="https://www.youtube.com/watch?v=aBgIIhRjdmI "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewMexendoPartesCorpo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="Mexendo as partes do corpo (Fofossauro); "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonMexendoPartesCorpo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#B68236"
+                android:onClick="abrirMexendoPartesCorpo"
+                android:text="https://www.youtube.com/watch?v=5OA45DdhsI4 "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewRecriando1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="RECRIANDO: O professor pode modificar a dinâmica utilizando o mesmo material: pedindo para que as crianças, uma de cada vez, escolha uma peça/parte do corpo e cada coleguinha fala sobre aquela parte do seu corpo, contando suas histórias e vivências."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewAtividade2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="Atividade 2 - Circuito Colaborativo – Condutor e conduzido. "
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewObjetivo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO:"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewAmpliarRelacoes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="(EI03EO03) Ampliar as relações interpessoais, desenvolvendo atitudes de participação e cooperação; (EI03EO04) Comunicar suas ideias e sentimentos a pessoas e grupos diversos."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewGenero2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="GÊNERO (S) ORAL (IS): Comandos Diversos e Debate (este último na proposta recriando com atividade temática)"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewMateriais2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="MATERIAIS: Garrafas pet ou garrafas de iogurte decoradas, bolas. Para variação acréscimo de cartazes ou placas de EVA e tinta ou hidrocor para fazer sinalização."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewDesenvolvimento2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="DESENVOLVIMENTO: As crianças são organizadas em duplas, de costas uma para outra, equilibrando a bola entre as costas das duplas e com as mãos dadas. No espaço um circuito é montado com as garrafas dispostas em diversas posições. As duplas terão sempre um condutor (que segue caminhando para frente do circuito) e um conduzido (membro que fica de costas para o circuito). O condutor segue “ziguezagueando” o circuito, e, para não derrubar as garrafas, o condutor vai descrevendo o local, sinalizando oralmente as mudanças de direção para o conduzido até completarem o circuito. Após finalizarem o circuito as duplas invertem os papéis e seguem para completar o circuito novamente."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textViewSugestaoMusical2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="SUGESTÃO MUSICAL/ CLIPE: Músicas instrumentais diversas a fim de não dificultar a escuta dos conduzidos."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonSugestaoMusical1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#B68236"
+                android:onClick="abrirSugestaoMusical1"
+                android:text="https://www.youtube.com/watch?v=r-rzMdyB4dg "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonSugestaoMusical2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#B68236"
+                android:onClick="abrirSugestaoMusical2"
+                android:text=" https://www.youtube.com/watch?v=H7QAJxORsl4"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewRecriando"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="RECRIANDO – Variação com tema “trânsito”: O circuito pode receber placas indicativas grudadas nas garrafas, para direita, para esquerda, proibido virar, siga em frente, faixa de pedestre, sinal vermelho, entre outros. As duplas são dispostas como na brincadeira do carrinho de mão, na qual quem está em pé é o condutor e quem está com as mãos apoiadas ao chão é o conduzido. Segue a mesma lógica da troca de papéis. Para aplicar essa variação é importante que o professor inicie um debate perguntando as crianças, por exemplo, se elas andam de carro, ônibus, caminhando, como percebem o trânsito, os cuidados que precisam ter nos deslocamentos, para que servem as placas no trânsito e os sinaleiros. Após o debate com as crianças o professor pode apresentar vídeos com situações corretas em relação ao trânsito (atravessar na faixa, uso do cinto de segurança, respeito aos sinaleiros e aos pedestres) bem como situações incorretas (falta de uso do capacete, não utilizar cinto, não respeitar a faixa de pedestre ...) permitindo as crianças que contem sobre seus trajetos para vir para escola bem como mediando possíveis conflitos com relação ao entendimento das regras."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
